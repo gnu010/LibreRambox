@@ -518,7 +518,7 @@
 		"type": "messaging",
 		"allow_popups": false,
 		"manual_notifications": false,
-		"js_unread": "function checkUnread(){if(document.querySelectorAll(\"div.wzx93 span.mL1cqe\").length>0){let e=0;document.querySelectorAll(\"div.wzx93 span.mL1cqe\").forEach(t=>e+=1),updateBadge(e)}else updateBadge(document.querySelectorAll(\".SSPGKf.EyyDtb.Q6oXP:not(.oCHqfe) .PIw6Oe.EdWvwd.FVKzAb .SaMfhe.m9MHid\").length||0)}function updateBadge(e){1<=e?rambox.setUnreadCount(e):rambox.clearUnreadCount()}setInterval(checkUnread,3e3),window.trustedTypes&&window.trustedTypes.createPolicy&&window.trustedTypes.createPolicy(\"default\",{createHTML:(e,t)=>e});",
+		"js_unread": "function checkUnread(){if(document.querySelectorAll(\".wzx93 .mL1cqe\").length>0){let e=0;document.querySelectorAll(\".wzx93 .mL1cqe\").forEach(t=>e+=1),updateBadge(e)}else updateBadge(document.querySelectorAll(\".SSPGKf.EyyDtb.Q6oXP:not(.oCHqfe) .PIw6Oe.EdWvwd.FVKzAb .SaMfhe.m9MHid\").length||0)}function updateBadge(e){1<=e?rambox.setUnreadCount(e):rambox.clearUnreadCount()}setInterval(checkUnread,3e3),window.trustedTypes&&window.trustedTypes.createPolicy&&window.trustedTypes.createPolicy(\"default\",{createHTML:(e,t)=>e});",
 		"userAgent": "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0",
 		"note": "",
 		"titleBlink": true,
